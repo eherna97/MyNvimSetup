@@ -2,9 +2,9 @@
 
 ## Files and Directories:
 
-  ###### dir:
+  #### directories:
   * vim-plug
-  ###### files:
+  #### files:
   * vim-plug/plugins.vim
   * init.vim
 
