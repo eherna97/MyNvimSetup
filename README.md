@@ -1,5 +1,5 @@
 # Eric's Neovim Setup
-
+  This repository is for the purpose of sharing my Neovim setup with anyone who might be interested in my setup. A lot of what I did was guided by online tutorial.
 ## Files and Directories:
 
   ### Directories:
