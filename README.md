@@ -3,10 +3,10 @@
 ## Files and Directories:
 
   dir:
-    - vim-plug
+  * vim-plug
   files:
-    - vim-plug/plugins.vim
-    - init.vim
+  * vim-plug/plugins.vim
+  * init.vim
 
 
 
