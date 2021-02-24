@@ -14,9 +14,9 @@
   * [Click here](https://nodejs.org/en/download/package-manager/) for an install guide.
   * **required for:** 
     1. **neoclide/coc.vim**
-  ### font-awesome
+  ### font-awesome:
   * this is used for the **lightline** linting implementation. to install on Ubuntu:
-  $ sudo apt-get install -y fonts-font-awesome
+  * $ sudo apt-get install -y fonts-font-awesome
 
 ## Plugin Dependancies:
 
