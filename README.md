@@ -1,5 +1,6 @@
 # Eric's Neovim Setup
 > This repository is for the purpose of sharing my Neovim setup with anyone who might be interested. This setup is shared betweeun my iTerm2 on Mac and Gnome on Ubuntu.
+
 ![alt text](images/nvim.png "neovim setup")
 
 ## Files and Directories:
