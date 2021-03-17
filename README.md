@@ -1,5 +1,7 @@
 # Eric's Neovim Setup
 > This repository is for the purpose of sharing my Neovim setup with anyone who might be interested. This setup is shared betweeun my iTerm2 on Mac and Gnome on Ubuntu.
+![alt text](images/nvim.png "neovim setup")
+
 ## Files and Directories:
 
 > ### Directories:
@@ -12,7 +14,7 @@
 
 > ### nodejs:
 > * [Click here](https://nodejs.org/en/download/package-manager/) for an install guide.
-> * **required for:** 
+> * Required for: 
 >     - **neoclide/coc.vim**
 > ### font-awesome:
 > * This is used for the **lightline** glyphs. to install on Ubuntu:
@@ -23,7 +25,7 @@
 ## Plugin Dependancies:
 
 > ### maximbaz/lightline-ale
-> * **Depends on:** 
+> * Depends on: 
 >     1. **w0rp/ale**
 >     2. **itchyny/lightline.vim**
 
