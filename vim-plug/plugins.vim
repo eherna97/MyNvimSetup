@@ -9,13 +9,31 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
+    "Plug 'sheerun/vim-polyglot'
+    Plug 'Townk/vim-autoclose'
+    Plug 'Yggdroot/indentLine'
+    Plug 'tpope/vim-surround'
+    Plug 'vim-python/python-syntax'
+    Plug 'voldikss/vim-floaterm'
+
     " File Explorer
     Plug 'scrooloose/NERDTree'
-    " Auto pairs for '(' '[' '{'
-    Plug 'jiangmiao/auto-pairs'
-    Plug 'wadackel/vim-dogrun'
-    Plug 'pineapplegiant/spaceduck', {'branch': 'main'}
+
+    " Colorschemes
+    Plug 'sainnhe/sonokai'
+    "Plug 'kadekillary/Turtles'
+    "Plug 'wadackel/vim-dogrun'
+    "Plug 'pineapplegiant/spaceduck', {'branch': 'main'}
+    "Plug 'dracula/vim', {'as': 'dracula'}
+    Plug 'xstrex/FireCode.vim'
+    "Plug 'patstockwell/vim-monokai-tasty'
+    "Plug 'kamykn/dark-theme.vim'
+    "Plug 'beikome/cosme.vim'
+    "Plug 'sonjapeterson/1989.vim'
+    Plug 'bcicen/vim-vice'
+    "Plug 'nikolvs/vim-sunbather'
+
+    " LightLine stuff
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'w0rp/ale'
     Plug 'itchyny/lightline.vim'
