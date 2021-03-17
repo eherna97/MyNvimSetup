@@ -1,10 +1,12 @@
 source $HOME/.config/nvim/vim-plug/plugins.vim
-
-set termguicolors 
-colorscheme spaceduck
+"when using iterm2 turn on termguicolors
+set termguicolors
+set guicursor=a:block
+set background=dark
 syntax on
-set tabstop=4 autoindent
-set relativenumber
+colorscheme sonokai
+set shiftwidth=4 autoindent
+set number
 set laststatus=2
 set showtabline=2
 set path=.,,**
@@ -12,7 +14,7 @@ set hidden
 set nowrap
 set noshowmode
 set cursorline
-"set mouse=a
+set mouse=a
 set smartindent
 set expandtab
 set smarttab
@@ -39,12 +41,12 @@ let g:ale_floating_preview = 1
 
 "lightline configurations
 let g:lightline = {}
-let g:lightline.colorscheme = 'spaceduck'
-let g:lightline#ale#indicator_checking = "\uf110".' '
-let g:lightline#ale#indicator_infos = "\uf129".' '
-let g:lightline#ale#indicator_warnings = "\uf071".' '
-let g:lightline#ale#indicator_errors = "\uf05e".' '
-let g:lightline#ale#indicator_ok = "\uf00c".' '
+let g:lightline.colorscheme = 'sonokai'
+let g:lightline#ale#indicator_checking = "\uf110"
+let g:lightline#ale#indicator_infos = "\uf129"
+let g:lightline#ale#indicator_warnings = "\uf071"
+let g:lightline#ale#indicator_errors = "\uf05e"
+let g:lightline#ale#indicator_ok = "\uf00c"
 let g:lightline.active = {
         \ 'left': [ [ 'mode' ],
         \           [ 'readonly', 'filename', 'modified' ],
@@ -66,10 +68,10 @@ let g:lightline.tab = {
         \ 'active': [ 'tabnum', 'filename', 'modified' ],
         \ 'inactive': [ 'tabnum', 'filename', 'modified' ] }
 "alternate file format definition
-"\ 'fileformat': '%{&fenc!=#""?&fenc:&enc}[%{&ff}]',
+" 'fileformat': '%{&fenc!=#""?&fenc:&enc}[%{&ff}]'
 let g:lightline.component = {
       \ 'bufinfo': '%{bufname("%")}:%{bufnr("%")}',
-      \ 'vim_logo': "\uf27d".' ',
+      \ 'vim_logo': "\uf27d",
       \ 'line_logo': "\uf0c9",
       \ 'mode': '%{lightline#mode()}',
       \ 'absolutepath': '%F',
@@ -86,7 +88,6 @@ let g:lightline.component = {
       \ 'charvaluehex': '0x%B',
       \ 'percent': '%3p%%',
       \ 'percentwin': '%P',
-      \ 'space': ' ',
       \ 'spell': '%{&spell?&spelllang:""}',
       \ 'lineinfo': '%3p%% %3l:%-2c '."\uf0c9",
       \ 'line': '%l',
